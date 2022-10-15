@@ -1,0 +1,21 @@
+<mvc:View controllerName="project1.controller.App"
+	displayBlock="true"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m">
+	<Carousel id="_IDGenCarousel1">
+		<pages>
+			<Image id="_IDGenImage1" 		src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/GEO_Globe_Image.jpg/518px-GEO_Globe_Image.jpg?20190504192438"
+				height="300px"/>
+			<Image id="_IDGenImage2"		src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Wikipedia_Hello_World_Graphic.svg/2000px-Wikipedia_Hello_World_Graphic.svg.png"
+				height="300px"/>
+		</pages>
+	</Carousel>
+    <Button
+		text="Say Hello!"
+		press="onShowHello"/>
+	<Input
+		value="{helloPanel>/recipient/name}"
+		description="Hello {helloPanel>/recipient/name}"
+		valueLiveUpdate="true"
+		width="60%"/>
+</mvc:View>
