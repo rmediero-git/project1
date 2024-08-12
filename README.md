@@ -18,7 +18,7 @@
 
 ## project1
 
-A Fiori application.
+A Fiori application. by rmo
 
 ### Starting the generated app
 
